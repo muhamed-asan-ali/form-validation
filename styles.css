@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to right bottom, #747474, #959595, #b7b7b7, #dadada, #ffffff);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+form button{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width:100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid #8b8b8b;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    color: rgb(4, 0, 255);
+}
+
+.input-group.error input{
+    color: rgb(255, 74, 74);
+}
